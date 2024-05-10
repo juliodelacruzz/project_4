@@ -28,6 +28,20 @@ The HR department has assembled data on almost 10,000 employees who left the com
 
 ## Instructions:
 
+1. (Julio)
+
+
+2. (David)
+
+
+3. (Everardo)
+
+
+4. (Dylan)
+
+
+5.  (Aman)
+
 ## Ethical Considerations:
 The name of the company that this data came from is not named due to privacy reasons. Therefore, we are confident that we are ethically using this data for our project.
 
