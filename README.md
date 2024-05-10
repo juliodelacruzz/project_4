@@ -43,7 +43,7 @@ After analyzing our data sets in different ways and scenarios, I discovered poss
 (Everardo)
 
 
-4.Using Tableau, I effectively showcased the data by creating interactive and a visually appealing dashboard. I started by importing the dataset into Tableau and then utilized various features like drag-and-drop functionality to build visualizations such as bar charts, text table, and side by side circle comparisons. I ensured the data was organized logically and made use of filters, parameters, and calculated fields to provide users with dynamic insights. By employing color coding, tooltips, and labels, I enhanced the clarity of the visualizations and made them more engaging. Overall, my use of Tableau helped transform raw data into actionable insights that were easily understandable and accessible to my audience.
+4.Using Tableau, I effectively showcased the data by creating interactive and a visually appealing dashboard. I started by importing the dataset into Tableau and then utilized various features like drag-and-drop functionality to build visualizations such as bar charts, text table, and side by side circle comparisons. I ensured the data was organized logically and made use of filters, parameters, and calculated fields to provide users with dynamic insights. By employing color coding, tooltips, and labels, I enhanced the clarity of the visualizations and made them more engaging. Overall, my use of Tableau helped transform raw data into actionable insights that were easily understandable and accessible to my audience. (Dylan)
 
 
 5.  (Aman)
