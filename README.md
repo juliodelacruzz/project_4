@@ -58,11 +58,8 @@ This score is calculated by Kaggle.
 ### Completeness · 100%
 
 ✔ Subtitle
-
 ✔ Tag
-
 ✔ Description
-
 ✔ Cover Image
 
 ### Credibility · 67%
