@@ -67,3 +67,4 @@ This score is calculated by Kaggle.
 - Pandas
 - Sklearn
 - Pathlib
+- SQL
