@@ -38,8 +38,8 @@ The HR department has assembled data on almost 10,000 employees who left the com
 
 After analyzing our data sets in different ways and scenarios, I discovered possible reasons why employees left this company and once we identify the problem, we can propose possible solutions.
 
-    1.- It is clear that when an employee does not feel that their work is taken into consideration and does not see job growth, it is very likely that they will resign.
-    2.- Likewise, we discovered that giving bonuses can be a good incentive for employees to feel motivated and somehow valued, but it is still not enough to prevent an employee from leaving the company.
+  - It is clear that when an employee does not feel that their work is taken into consideration and does not see job growth, it is very likely that they will resign.
+  - Likewise, we discovered that giving bonuses can be a good incentive for employees to feel motivated and somehow valued, but it is still not enough to prevent an employee from leaving the company.
 (Everardo)
 
 
