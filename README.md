@@ -15,16 +15,16 @@ This database is from a large US company (no name given for privacy reasons). Th
 The data
 The HR department has assembled data on almost 10,000 employees who left the company between 2016-2020. They used information from exit interviews, performance reviews, and employee records.
 
-"department" - the department the employee belongs to.
-"promoted" - 1 if the employee was promoted in the previous 24 months, 0 otherwise.
-"review" - the composite score the employee received in their last evaluation.
-"projects" - how many projects the employee is involved in.
-"salary" - for confidentiality reasons, salary comes in three tiers: low, medium, high.
-"tenure" - how many years the employee has been at the company.
-"satisfaction" - a measure of employee satisfaction from surveys.
-"bonus" - 1 if the employee received a bonus in the previous 24 months, 0 otherwise.
-"avg_hrs_month" - the average hours the employee worked in a month.
-"left" - "yes" if the employee ended up leaving, "no" otherwise.
+  - "department" - the department the employee belongs to.
+  - "promoted" - 1 if the employee was promoted in the previous 24 months, 0 otherwise.
+  - "review" - the composite score the employee received in their last evaluation.
+  - "projects" - how many projects the employee is involved in.
+  - "salary" - for confidentiality reasons, salary comes in three tiers: low, medium, high.
+  - "tenure" - how many years the employee has been at the company.
+  - "satisfaction" - a measure of employee satisfaction from surveys.
+  - "bonus" - 1 if the employee received a bonus in the previous 24 months, 0 otherwise.
+  - "avg_hrs_month" - the average hours the employee worked in a month.
+  - "left" - "yes" if the employee ended up leaving, "no" otherwise.
 
 ## Instructions:
 
