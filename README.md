@@ -34,7 +34,13 @@ The HR department has assembled data on almost 10,000 employees who left the com
 2. (David)
 
 
-3. (Everardo)
+3. Using SQL I try to find the reasons why the employees left the company and at the same time I try to find some possible solutions. After analyzing different columns, I found why the employees left the company. When an employee does not feel valued, when no one in the company recognizes your work and you do not have a position promotion, it is evident that you will look for a place where you do feel valued and therefore can grow in your work life. That being said,  I compared the employees who left the company but were promoted vs the employees who left the company but were not promoted. Finally, I grouped employee data by number of projects, counting those who left with bonuses and those who left without bonuses, providing insight into attrition trends based on project participation and rewards received. As we can see in the photo below, giving a bonus to deserving employees is a great action to retain them in the company.
+
+After analyzing our data sets in different ways and scenarios, I discovered possible reasons why employees left this company and once we identify the problem, we can propose possible solutions.
+
+    1.- It is clear that when an employee does not feel that their work is taken into consideration and does not see job growth, it is very likely that they will resign.
+    2.- Likewise, we discovered that giving bonuses can be a good incentive for employees to feel motivated and somehow valued, but it is still not enough to prevent an employee from leaving the company.
+(Everardo)
 
 
 4. (Dylan)
