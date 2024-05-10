@@ -53,6 +53,9 @@ The name of the company that this data came from is not named due to privacy rea
 
 ## Data Limitations:
 
+For confidentiality reasons, the data set does not provide us with the company name, salary ranges, or employee names. 
+
+
 This score is calculated by Kaggle.
 
 ### Completeness · 100%
