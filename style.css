@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.home{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#NeuralNetworkModel hr {
+    border: none;
+    height: 1px;
+    background-color: #0f0404; /* Color of the line */
+    margin: 100px 0; /* Space above and below the line */
+}
