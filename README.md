@@ -28,7 +28,7 @@ The HR department has assembled data on almost 10,000 employees who left the com
 
 ## Instructions:
 
-1. (Julio)
+1. (Julio)  Using Logistic Regression model, I wanted to see how well the model performed in predicting if an employee would leave or not. After importing the data, I encoded the categorical columns and then split the data. I also scaled the data. From there I created the logistic regression model and use it both on the scaled training and test data. Afterwords, one of my groupmates brought up the idea of class imbalance and suggested we try it with one of our models. I proceeded to downsample the majority (people who stayed) to match minority class. The results were interesting as the model was less accurate, but had better predictive power for the minority class. It was then my responsibility to analyze the logistic model and the class imbalance. I was also in charge of creating the webpage and deploying it to github pages.
 
 
 2. (David)
