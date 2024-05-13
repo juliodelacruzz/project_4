@@ -46,15 +46,19 @@ After analyzing our data sets in different ways and scenarios, I discovered poss
 4. Using Tableau, I effectively showcased the data by creating interactive and a visually appealing dashboard. I started by importing the dataset into Tableau and then utilized various features like drag-and-drop functionality to build visualizations such as bar charts, text table, and side by side circle comparisons. I ensured the data was organized logically and made use of filters, parameters, and calculated fields to provide users with dynamic insights. By employing color coding, tooltips, and labels, I enhanced the clarity of the visualizations and made them more engaging. Overall, my use of Tableau helped transform raw data into actionable insights that were easily understandable and accessible to my audience. (Dylan)
 
 
-5. Using google colab notebook, I began by importing all necessary dependencies including machine learning libraries Scikit-learn, TensorFlow; visualization libraries Matplotlib, Seaborn; and Pandas. The working dataset was obtained as a csv file and read into a Pandas DataFrame. After preprocessing the data for datatype, null values, and unique columns, I converted the categorical data into numerical data. The data was split into all other features(X) and the target(y) variable as employees who “left” the company. Then split again into train and test dataset. Data was scaled and then processing using a neural network model with defined nodes, hidden layers, and number of epochs. In order to optimize the model further, features were reassessed by creating a Correlation Matrix. Selected features were also visualized using FacetGrid, a multi-axes grid with subplots visualizing the distribution of these features against the target variable. Dataset was cleaned up based on these findings, split and scaled again. The neural network was trained with this training dataset and evaluated with the testing dataset again. Any other changes to optimizing the machine learning model and the resulting changes in model performance were documented at the end of the script. 
+5. Using google colab notebook, I began by importing all necessary dependencies including machine learning libraries Scikit-learn, TensorFlow; visualization libraries Matplotlib, Seaborn; and Pandas. The working dataset was obtained as a csv file and read into a Pandas DataFrame. After preprocessing the data for datatypes, null values, and unique columns, I converted the categorical data into numerical data. The data was split into all other features(X) and the target(y) variable as employees who “left” the company. Then split again into train and test dataset. Data was scaled and then processed using a neural network model with defined nodes, hidden layers, and number of epochs. In order to optimize the model further, features were reassessed by creating a Correlation Matrix. Selected features were also visualized using FacetGrid, a multi-axes grid with subplots visualizing the distribution of these features against the target variable. Dataset was cleaned up based on these findings, split and scaled again. The neural network was trained with this training dataset and evaluated with the testing dataset again. Any other changes to optimizing the machine learning model and the resulting changes in model performance were documented at the end of the script. 
 
 
 ## Ethical Considerations:
 The name of the company that this data came from is not named due to privacy reasons. Therefore, we are confident that we are ethically using this data for our project.
 
+
 ## Data Limitations:
 
 For confidentiality reasons, the data set does not provide us with the company name, salary ranges, or employee names. 
+No employee demographic info (age, gender, education level); 
+No industry sector where company operates; 
+2016-2020 are pre-pandemic/onset of pandemic years so work-from-home or flexible hours as additional employee benefits are not mentioned; 
 
 
 This score is calculated by Kaggle.
