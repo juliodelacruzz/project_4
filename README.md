@@ -55,12 +55,13 @@ The name of the company that this data came from is not named due to privacy rea
 
 ## Data Limitations:
 
-For confidentiality reasons, the data set does not provide us with the company name, salary ranges, or employee names. 
-No employee demographic info (age, gender, education level); 
-No industry sector where company operates; 
-2016-2020 are pre-pandemic/onset of pandemic years so work-from-home or flexible hours as additional employee benefits are not mentioned; 
+- For confidentiality reasons, the data set does not provide company name, salary ranges, or employee names. In addition: 
+- No employee demographic info (age, gender, education level); 
+- No industry sector where company operates; 
+- 2016-2020 are pre-/early pandemic years but work-from-home or flexible hours as additional employee incentives are not mentioned in the dataset.
 
 
+## Kaggle metrics:
 This score is calculated by Kaggle.
 
 ### Completeness · 100%
@@ -96,3 +97,6 @@ This score is calculated by Kaggle.
 - Sklearn
 - Pathlib
 - SQL
+- TensorFlow
+- Seaborn
+- MatplotLib
