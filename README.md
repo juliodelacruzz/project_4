@@ -31,7 +31,24 @@ The HR department has assembled data on almost 10,000 employees who left the com
 1. (Julio)  Using Logistic Regression model, I wanted to see how well the model performed in predicting if an employee would leave or not. After importing the data, I encoded the categorical columns and then split the data. I also scaled the data. From there I created the logistic regression model and use it both on the scaled training and test data. Afterwords, one of my groupmates brought up the idea of class imbalance and suggested we try it with one of our models. I proceeded to downsample the majority (people who stayed) to match minority class. The results were interesting as the model was less accurate, but had better predictive power for the minority class. It was then my responsibility to analyze the logistic model and the class imbalance. I was also in charge of creating the webpage and deploying it to github pages.
 
 
-2. (David)
+2. The model I tested was a Support Vector Machine (SVM): SVM is a powerful classification algorithm that finds the hyperplane that best separates data points of different classes. It can handle both linear and non-linear data.
+As you can see, the accuracy is solid at 83%. We have two classes, one of employees who are not leaving, and the other of employees who are leaving.  Precision is strong at 83 and 82% for both classes. For employees not leaving, the recall is at 94%, which is great. But for employees who are leaving, the recall is only at 57%. This indicates the model only correctly identified 57% of the employees who are leaving. A little better than a coin toss. 
+
+To improve the model, I introduced class weight parameter to assign higher weights to the minority class, employees who are leaving. I set the class weight parameter to ‘balanced’ which tells the model to automatically adjust weights inversely proportional to class frequencies in the input data. In other words, the model will pay more attention to correctly classify employees who are leaving. Doing this resulted in the following:
+Lower accuracy score of 77%
+Precision for those not leaving increased from 83% to 91%, while it decreased for those leaving from 82% to 59%
+Recall for those not leaving decreased from 94% to 75%, but increased for those leaving from 57% to 83%
+
+Using class weights has led to a trade off in the model’s performance
+Pros
+-	The model has a better recall for those leaving, which means it can better identify employees who are likely to leave
+-	By adding class weights, the model is more balanced in terms of sensitivity to both classes
+Cons
+-	Reduced precision for identifying employees who are likely to leave
+-	Negative impact on overall accuracy
+
+Using class weights has effectively addressed the primary concern of improving recall for the leaving class. If the main objective is to identify employees at risk of leaving, then the benefits of higher recall may outweigh the drawbacks of lower precision and accuracy.
+(David)
 
 
 3. Using SQL I try to find the reasons why the employees left the company and at the same time I try to find some possible solutions. After analyzing different columns, I found why the employees left the company. When an employee does not feel valued, when no one in the company recognizes your work and you do not have a position promotion, it is evident that you will look for a place where you do feel valued and therefore can grow in your work life. That being said,  I compared the employees who left the company but were promoted vs the employees who left the company but were not promoted. Finally, I grouped employee data by number of projects, counting those who left with bonuses and those who left without bonuses, providing insight into attrition trends based on project participation and rewards received. As we can see in the photo below, giving a bonus to deserving employees is a great action to retain them in the company.
